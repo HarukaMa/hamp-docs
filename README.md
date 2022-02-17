@@ -2,5 +2,5 @@
 
 ## Contents
 
-[Getting started](getting_started.md)
+[Getting started](getting_started.md)  
 [FAQ](faq.md)
