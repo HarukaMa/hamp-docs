@@ -4,7 +4,7 @@ Please note that we are just testing the new pool implementation and there will 
 
 ## TL;DR
 
-Use [this](https://github.com/HarukaMa/aleo-prover) prover and connect to the pool at `hamp.app:4200`.
+Use [this](https://github.com/HarukaMa/aleo-prover) prover and connect to the pool at `pool.hamp.app:4200`.
 
 ## Precompiled version
 
@@ -66,13 +66,13 @@ cargo build --release
 If the build successes, Run the prover:
 
 ```sh
-cargo run --release -- -a <aleo1your_address_here> -p hamp.app:4200
+cargo run --release -- -a <aleo1your_address_here> -p pool.hamp.app:4200
 ```
 
 or
 
 ```sh
-target/release/aleo-prover -a <aleo1your_address_here> -p hamp.app:4200
+target/release/aleo-prover -a <aleo1your_address_here> -p pool.hamp.app:4200
 ```
 
 Read the [readme](https://github.com/HarukaMa/aleo-prover/blob/master/README.md) for more details about the prover, optimizations and GPU supports.
